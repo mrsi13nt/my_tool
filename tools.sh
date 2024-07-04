@@ -34,26 +34,26 @@ cd paramspider
 pip install .
 sudo cp /home/$current_user/.local/bin/paramspider /usr/bin
 git clone https://github.com/ffuf/ffuf ; cd ffuf ; go get ; go build
-sudo apt install amass-common
-sudo apt install nmap
-sudo apt install nikto
-sudo apt install beef-xss
-sudo apt install wireshark
-sudo apt install snort
-sudo apt install hashcat
-sudo apt install john
-sudo apt install sqlmap
-sudo apt install spiderfoot
-sudo apt install wifite
-sudo apt install dirb
-sudo apt install gobuster
-sudo apt install maltego
-sudo apt install wafw00f
-sudo apt install sublist3r
-sudo apt install python3-scapy
-sudo apt install whatweb
-sudo apt install recon-ng
-sudo apt install subfinder
-sudo apt install libyara-dev
-sudo apt install yara
-sudo apt install tcpdump
+sudo apt install amass-common -y
+sudo apt install nmap -y
+sudo apt install nikto -y
+sudo apt install beef-xss -y
+sudo apt install wireshark -y
+sudo apt install snort -y
+sudo apt install hashcat -y
+sudo apt install john -y
+sudo apt install sqlmap -y
+sudo apt install spiderfoot -y
+sudo apt install wifite -y
+sudo apt install dirb -y
+sudo apt install gobuster -y
+sudo apt install maltego -y
+sudo apt install wafw00f -y
+sudo apt install sublist3r -y
+sudo apt install python3-scapy -y
+sudo apt install whatweb -y
+sudo apt install recon-ng -y
+sudo apt install subfinder -y
+sudo apt install libyara-dev -y
+sudo apt install yara -y
+sudo apt install tcpdump -y
